@@ -1,5 +1,5 @@
 import os
-telefono = str(os.system('adb.exe devices -l'))
+telefono = str(os.system('adb.exe device'))
 os.system('clear')
 print('''\033[31m
          _     _  _  _ \033[32m    _________________   _______
@@ -9,8 +9,8 @@ print('''\033[31m
         \033[31m|_|   |_|/_/  \033[32m    |_|   |_||______/_/ |_|_|_/_/
 ''')
 
-
-print('Coloque el nombre del archivo que desea pasar a la ruta de su '+telefono+': ')
+print(telefono)
+print('Coloque el nombre del archivo que desea pasar a la ruta de su : ')
 print('\033[0m')
 nombre = input()
 os.system('adb.exe push \"'+nombre+'\" /sdcard/')
