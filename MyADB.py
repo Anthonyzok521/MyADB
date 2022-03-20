@@ -12,8 +12,18 @@ print(R+'''
         '''+R+'''| |\_/| | / / '''+V+'''    | |___| ||  |__| | ||  _  \ \ 
         '''+R+'''|_|   |_|/_/  '''+V+'''    |_|   |_||______/_/ |_|_|_/_/
 ''')
-print('Coloque el nombre del archivo que desea pasar a la ruta de su telefono: '+B)
+print(Style.DIM+'Coloque el nombre del archivo que desea pasar a la ruta de su telefono: '+B)
 nombre = input('> ')
 os.system('adb.exe push \"'+nombre+'\" /sdcard/')
+
+# para el comando de enviar archivos es adb.exe push +nombre del archivo+
+# para enviar archivos a la PC primero crea una carpeta con el comando mkdir MyADB, depués usa adb.exe pull /sdcard/+nombre del archivo+ MyADB
+# para apagar el telefono usa adb.exe shell reboot -p
+# para reiniciar adb.exe reboot
+# para fastboot adb.exe reboot bootloader
+# para recoveru adb.exe reboot recovery
+
+# Por cada acción que el usuario haga que imprima Listo no importa si hubo error.
+
 print('Listo')
 
