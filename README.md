@@ -1,3 +1,10 @@
 #MyADB
 
-<i>Script Python que se encarga junto con la aplicaci髇 adb.exe simplificar el uso de los comandos, sin escribir tanto. V醠ido para Windows. Para usar el script, es necesario tener colocarlo dentro de la carpeta en donde tenga instalado el adb.exe.</i>
+<i>Script Python que se encarga junto con la aplicaci贸n adb.exe simplificar el uso de los comandos, sin escribir tanto. V谩lido para Windows. Para usar el script, es necesario tener colocarlo dentro de la carpeta en donde tenga instalado el adb.exe.</i>
+<hr>
+<li>驴C贸mo usar?<br>
+  <i> 1</i> <b>Primero necesitas tener activada la depuraci贸n en tu m贸vil.</b><br>
+  <i> 2</i> <b>Despu茅s conecta tu telefono a tu laptop o PC mediante USB.</b><br>
+  <i> 3</i> <b>Seguidamente te aparecer谩 un mensaje de aceptaci贸n en el m贸vil para permitir la depuraci贸n.</b><br>
+  <i> 4</i> <b>Una vez hecho esto, solo queda ejecutar el .exe.</b><br>
+  <i> 5</i> <b>Por 煤ltimo solo elegir las opciones que te ofrece el programa y listo :)</b><br>
