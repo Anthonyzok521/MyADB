@@ -7,8 +7,8 @@
   <i> 2</i> <b>Después conecta tu telefono a tu laptop o PC mediante USB.</b><br>
   <i> 3</i> <b>Seguidamente te aparecerá un mensaje de aceptación en el móvil para permitir la depuración.</b><br>
   <i> 4</i> <b>Una vez hecho esto, solo queda ejecutar el .exe.</b><br>
-  <i> 5</i> <b>Por último solo elegir las opciones que te ofrece el programa y listo :)</b><br>
-<li>Para enviar un archivo del PC al teléfono o viceversa</li><br><br>
+  <i> 5</i> <b>Por último solo elegir las opciones que te ofrece el programa y listo :)</b><br><br>
+<li>Para enviar un archivo del PC al teléfono o viceversa</li><br>
   <p> - Del PC al teléfono:</p>
   <i>   1</i> <b>Pasa el archivo a la carpeta MyADB</b><br>
   <i>   2</i> <b>Ejecuta MyADB.exe</b><br>
